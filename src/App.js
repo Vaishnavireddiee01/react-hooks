@@ -4,6 +4,7 @@ import HookCounter from './components/HookCounter';
 
 import HookCounterTwo from './components/HookCounterTwo';
 import ClassCounterTwo from './components/ClassCounterTwo';
+import HookCounterThree from './components/HookCounterThree';
 import './App.css';
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <HookCounterTwo />
       <h4>ClassCounterTwo</h4>
       <ClassCounterTwo />
+      <h4>usestate with objects</h4>
+      <HookCounterThree />
     </div>
   );
 }
