@@ -5,6 +5,8 @@ import HookCounter from './components/HookCounter';
 import HookCounterTwo from './components/HookCounterTwo';
 import ClassCounterTwo from './components/ClassCounterTwo';
 import HookCounterThree from './components/HookCounterThree';
+import HookCounterFour from './components/HookCounterFour';
+
 import './App.css';
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <ClassCounterTwo />
       <h4>usestate with objects</h4>
       <HookCounterThree />
+      <h4>usestate with array</h4>
+      <HookCounterFour />
     </div>
   );
 }
