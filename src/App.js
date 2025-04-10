@@ -7,6 +7,8 @@ import ClassCounterTwo from './components/ClassCounterTwo';
 import HookCounterThree from './components/HookCounterThree';
 import HookCounterFour from './components/HookCounterFour';
 
+import EffectClassCounterOne from './components/EffectClassCounterOne';
+import EffectHookCounterOne from './components/EffectHookCounterOne';
 import './App.css';
 function App() {
   return (
@@ -23,6 +25,11 @@ function App() {
       <HookCounterThree />
       <h4>usestate with array</h4>
       <HookCounterFour />
+
+      <h4>EffectClassCounterOne</h4>
+      <EffectClassCounterOne />
+      <h4>EffectHookCounterOne</h4>
+      <EffectHookCounterOne />
     </div>
   );
 }
